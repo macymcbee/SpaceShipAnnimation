@@ -6,128 +6,24 @@
   <link rel="stylesheet" href="style.css">
   <title>SpaceShipAnimation</title>
 </head>
-<!-- 
+
 <body>
   <div class="svg-container">
-    <img src="raw (2).svg" alt="Ship">
-    <svg class="svg ufo-building">
+     <svg class="svg ufo-building" viewBox="0 0 450 250" xmlns="http://www.w3.org/2000/svg">
       <g class="ufo-building-float">
         <g class="building">
           <g class="building-flames">
-            <path d="M295.7,201.3l-1..."/>
-            <path d="M387.9,201.3l-1..."/>
+            <path d="M295.7,201.3l-1.8-4.1c-0.3-0.6-0.6-1.3-0.7-2c-0.3-2.1-0.7-4.2-1.1-6.2c-0.2-1.3-0.3-2.5-0.1-3.8
+              c0.2-1.4,0.6-2.7,1.4-3.8c0.6-0.9,1.4-1.5,2.4-1.9c0.9-0.3,1.7-0.3,2.6,0c1,0.3,1.9,0.8,2.5,1.7c0.9,1.2,1.3,2.5,1.5,4
+              c0.3,2.5-0.1,5-1.1,7.4c-0.5,1.3-1.2,2.6-1.9,3.8C298.2,196.7,296.9,199,295.7,201.3z"/>
+            <path d="M387.9,201.3l-1.8-4.1c-0.3-0.6-0.6-1.3-0.7-2c-0.3-2.1-0.7-4.2-1.1-6.2c-0.2-1.3-0.3-2.5-0.1-3.8
+               c0.2-1.4,0.6-2.7,1.4-3.8c0.6-0.9,1.4-1.5,2.4-1.9c0.9-0.3,1.7-0.3,2.6,0c1,0.3,1.9,0.8,2.5,1.7c0.9,1.2,1.3,2.5,1.5,4
+              c0.3,2.5-0.1,5-1.1,7.4c-0.5,1.3-1.2,2.6-1.9,3.8C390.4,196.7,389.1,199,387.9,201.3z"/>
           </g>
           <g class="building-body">
-            <path d="M10 10 H 90 V 90 H 10 Z"/>
+            <rect x="268.5" y="102.5" width="152.7" height="112.5" fill="#3D4C53"/>
           </g>
-          <path class="building-windows" d="M10 10 H 90 V 90 H 10 Z"/>
-        </g>
-        <g class="ufo-big">
-          <g class="ufo-big-lights">
-            <path class="ufo-big-lights-light ufo-big-lights-light--1" d="M10 10 H 90 V 90 H 10 Z"/>
-            <path class="ufo-big-lights-light ufo-big-lights-light--2" d="M10 10 H 90 V 90 H 10 Z"/>
-            ...
-          </g>
-        </g>
-        <g class="ufo-small">
-          ...
-        </g>
-      </g>
-    </svg>
-  </div>   -->
-
-<!-- 
-  <body>
-    <div class="svg-container">
-      <svg class="svg ufo-building" viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
-  
-        <g class="ufo-building-float">
-          <g class="building">
-            <g class="building-flames">
-              <circle cx="310" cy="210" r="5"/>
-              <circle cx="390" cy="210" r="5"/>
-            </g>
-  
-            <g class="building-body">
-              <path d="M100 150 H 200 V 250 H 100 Z"/>
-            </g>
-  
-            <path class="building-windows" d="M120 170 H 140 V 190 H 120 Z"/>
-          </g>
-  
-          <g class="ufo-big">
-            <g class="ufo-big-lights">
-              <path class="ufo-big-lights-light ufo-big-lights-light--1" d="M250 50 H 270 V 70 H 250 Z"/>
-              <path class="ufo-big-lights-light ufo-big-lights-light--2" d="M280 50 H 300 V 70 H 280 Z"/>
-            </g>
-          </g>
-  
-          <g class="ufo-small">
-            <circle cx="350" cy="60" r="10" fill="#ccc"/>
-          </g>
-        </g>
-  
-      </svg>
-    </div>   -->
-
-    <!-- <body>
-      <div class="svg-container">
-        <!-- Embedded SVG content -->
-        <!-- <svg class="svg ufo-building" version="1.1" id="Layer_1"
-             xmlns="http://www.w3.org/2000/svg"
-             xmlns:xlink="http://www.w3.org/1999/xlink"
-             x="0px" y="0px"
-             viewBox="0 0 450 250"
-             enable-background="new 0 0 450 250"
-             xml:space="preserve">
-          <g class="ufo-building-float">
-            <g class="building">
-              <g class="building-flames">
-                <path fill="#F58220" d="M295.7,201.3l-1.8-4.1c-0.3-0.6-0.6-1.3-0.7-2c-0.3-2.1-0.7-4.2-1.1-6.2c-0.2-1.3-0.3-2.5-0.1-3.8
-                  c0.2-1.4,0.6-2.7,1.4-3.8c0.6-0.9,1.4-1.5,2.4-1.9c0.9-0.3,1.7-0.3,2.6,0c1,0.3,1.9,0.8,2.5,1.7c0.9,1.2,1.3,2.5,1.5,4
-                  c0.3,2.5-0.1,5-1.1,7.4c-0.5,1.3-1.2,2.6-1.9,3.8C298.2,196.7,296.9,199,295.7,201.3z"/>
-                <path fill="#F58220" d="M387.9,201.3l-1.8-4.1c-0.3-0.6-0.6-1.3-0.7-2c-0.3-2.1-0.7-4.2-1.1-6.2c-0.2-1.3-0.3-2.5-0.1-3.8
-                  c0.2-1.4,0.6-2.7,1.4-3.8c0.6-0.9,1.4-1.5,2.4-1.9c0.9-0.3,1.7-0.3,2.6,0c1,0.3,1.9,0.8,2.5,1.7c0.9,1.2,1.3,2.5,1.5,4
-                  c0.3,2.5-0.1,5-1.1,7.4c-0.5,1.3-1.2,2.6-1.9,3.8C390.4,196.7,389.1,199,387.9,201.3z"/>
-              </g>
-              <g class="building-body">
-                <path fill="#3D4C53" d="M268.5,102.5h152.7v112.5H268.5V102.5z"/>
-              </g>
-              <path class="building-windows" fill="#00FFFF" d="M284.5,115.2h16v16h-16V115.2z M318.5,115.2h16v16h-16V115.2z M352.5,115.2h16v16h-16V115.2z
-                M386.5,115.2h16v16h-16V115.2z M284.5,149.2h16v16h-16V149.2z M318.5,149.2h16v16h-16V149.2z M352.5,149.2h16v16h-16V149.2z
-                M386.5,149.2h16v16h-16V149.2z M284.5,183.2h16v16h-16V183.2z M318.5,183.2h16v16h-16V183.2z M352.5,183.2h16v16h-16V183.2z
-                M386.5,183.2h16v16h-16V183.2z"/>
-            </g>
-            <g class="ufo-big">
-              <g class="ufo-big-lights">
-                <circle class="ufo-big-lights-light ufo-big-lights-light--1" cx="200" cy="100" r="5"/>
-                <circle class="ufo-big-lights-light ufo-big-lights-light--2" cx="220" cy="100" r="5"/>
-                <circle class="ufo-big-lights-light ufo-big-lights-light--3" cx="240" cy="100" r="5"/>
-              </g>
-            </g>
-            <g class="ufo-small">
-              <circle cx="100" cy="60" r="8" fill="#ccc"/>
-            </g>
-          </g>
-        </svg>
-      </div>   --> 
-<body>
-        <div class="svg-container">
-          <svg class="svg ufo-building" viewBox="0 0 450 250" xmlns="http://www.w3.org/2000/svg">
-            <g class="ufo-building-float">
-              <g class="building">
-                <g class="building-flames">
-                  <path d="M295.7,201.3l-1.8-4.1c-0.3-0.6-0.6-1.3-0.7-2c-0.3-2.1-0.7-4.2-1.1-6.2c-0.2-1.3-0.3-2.5-0.1-3.8
-                    c0.2-1.4,0.6-2.7,1.4-3.8c0.6-0.9,1.4-1.5,2.4-1.9c0.9-0.3,1.7-0.3,2.6,0c1,0.3,1.9,0.8,2.5,1.7c0.9,1.2,1.3,2.5,1.5,4
-                    c0.3,2.5-0.1,5-1.1,7.4c-0.5,1.3-1.2,2.6-1.9,3.8C298.2,196.7,296.9,199,295.7,201.3z"/>
-                  <path d="M387.9,201.3l-1.8-4.1c-0.3-0.6-0.6-1.3-0.7-2c-0.3-2.1-0.7-4.2-1.1-6.2c-0.2-1.3-0.3-2.5-0.1-3.8
-                    c0.2-1.4,0.6-2.7,1.4-3.8c0.6-0.9,1.4-1.5,2.4-1.9c0.9-0.3,1.7-0.3,2.6,0c1,0.3,1.9,0.8,2.5,1.7c0.9,1.2,1.3,2.5,1.5,4
-                    c0.3,2.5-0.1,5-1.1,7.4c-0.5,1.3-1.2,2.6-1.9,3.8C390.4,196.7,389.1,199,387.9,201.3z"/>
-                </g>
-                <g class="building-body">
-                  <rect x="268.5" y="102.5" width="152.7" height="112.5" fill="#3D4C53"/>
-                </g>
-                <g class="building-windows">
+          <g class="building-windows">
                   <rect x="284.5" y="115.2" width="16" height="16"/>
                   <rect x="318.5" y="115.2" width="16" height="16"/>
                   <rect x="352.5" y="115.2" width="16" height="16"/>
