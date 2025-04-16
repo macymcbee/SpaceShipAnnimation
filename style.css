@@ -70,7 +70,7 @@
     transform-origin: center top;
 }  */
 
-
+/* 
 body {
   background: #111;
   margin: 0;
@@ -110,4 +110,37 @@ body {
 .building-flames path {
   fill: orange;
 }
-</style>
+</style> */
+
+
+body {
+  background: #111;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.svg-container {
+  width: 90%;
+  max-width: 800px;
+}
+
+.ufo-building-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.ufo-big-lights-light {
+  fill: yellow;
+  opacity: 0.7;
+}
+
+.building-windows {
+  fill: cyan;
+}
