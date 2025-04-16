@@ -1,4 +1,4 @@
-.svg{
+/* .svg{
     width: 100%;
     height: auto;
 }
@@ -68,4 +68,46 @@
     fill: #d84437;
     animation: building-flams .15s ease infinite;
     transform-origin: center top;
-}
+} */
+
+body {
+    background: #000;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .svg-container {
+    width: 500px;
+    height: auto;
+  }
+
+  .ufo {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+
+  .ufo-light {
+    fill: yellow;
+    opacity: 0.6;
+    animation: pulse 1s infinite alternate;
+  }
+
+  @keyframes pulse {
+    from { opacity: 0.2; }
+    to { opacity: 1; }
+  }
+
+  .building {
+    fill: #555;
+  }
+
+  .window {
+    fill: #00eaff;
+  }
